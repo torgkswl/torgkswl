@@ -50,10 +50,14 @@ def baliho():
 
 except (KeyError,IOError):
 	 
+		print R + '_     _'.center(44)
+		print "o' \.=./ `o".center(44)
+		print '(o o)'.center(44)
+		print 'ooO--(_)--Ooo'.center(44)
 		print ' ' + W
 		print ('F B I').center(44)
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
-		print ' '
+print ' ''
 ####################################################################
 #		    Print In terminal
 def show_program():
