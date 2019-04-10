@@ -48,7 +48,7 @@ def baliho():
 		name = a['name']
 		n.append(a['name'])
 
-except (KeyError,IOError):
+	except (KeyError,IOError):
 	 
 		print R + '_     _'.center(44)
 		print "o' \.=./ `o".center(44)
